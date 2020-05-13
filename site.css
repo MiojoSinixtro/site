@@ -1,0 +1,85 @@
+/*reset css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  background-image: url('./img/bg.gif');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  color: limegreen;
+  font-family: sans-serif;
+}
+@media (min-width: 400px) {
+  body{
+    font-size: 14px;
+  }
+  @media (min-width: 730px) {
+    body{
+      font-size: 25px;
+    }
+  }
+  @media (max-width: 800px) {
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
+header {
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+a {
+  color: limegreen;
+  padding:10px;
+  text-decoration:none;
+  transition: 0.5s;
+}
+a:hover {
+  background-color: gray;
+  text-decoration: underline;
+}
+.menu {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid limegreen;
+    }
+.menu li {
+  color: limegreen;
+  list-style:none;
+}
+.img-portfolio{
+    height: 150px;
+    width: 150px; 
+  }
+.site-title {
+
+  text-align: center;
+  font-weight: bold;
+}
+  .portfolio-subtitle {
+  display: block;
+  padding: 3em;
+  text-align: center;
+  }
+.portfolio{
+  display: flex;
+ }
+.site-subtitle {
+  text-align: center;
+  font-style: italic;
+}
