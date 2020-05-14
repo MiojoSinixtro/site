@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+  
 body, html {
   background-image: url('./img/bg.gif');
   background-size: auto;
@@ -15,7 +17,8 @@ body, html {
   color: limegreen;
   font-family: sans-serif;
 }
-@media (min-width: 400px) {
+
+@media (min-width: 250px) {
   body{
     font-size: 14px;
   }
@@ -77,10 +80,10 @@ a:hover {
  } 
   .portfolio-subtitle {
   display: block;
-  padding: 5em;
+  padding: 3em;
   text-align: center;
   }
- .img-portfolio{
+  .img-portfolio{
     height: 230px;
 width: 230px;
 border-radius: 50%;
