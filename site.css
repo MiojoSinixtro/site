@@ -10,12 +10,12 @@ body, html {
   background-size: auto;
   height: 100%;
   width: 100%;
-  position: static;
+  position: fixed;
   margin: 0;
   color: limegreen;
-  font-family:'Metal Mania', cursive;
+  font-family: sans-serif;
 }
-@media (min-width: 250px) {
+@media (min-width: 400px) {
   body{
     font-size: 14px;
   }
@@ -38,7 +38,6 @@ justify-content: center;
 align-items: center;
 }
   a {
-  background-color: rgba(0,0,0, 1); 
   color: limegreen;
   padding:10px;
   text-decoration:none;
@@ -54,7 +53,6 @@ a:hover {
   top: 0;
 }
 .menu ul {
-  background-color: rgba(0,0,0, 1);
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -65,27 +63,24 @@ a:hover {
   color: limegreen;
   list-style:none;
 }
-}
-.site-title {
-  font-size: 45px;
+  .site-title {
   text-align: center;
   font-weight: bold;
 }
   .site-subtitle {
-  font-size: 40px;
   display: fex;
   text-align: center;
-  line-height: 2.5vh;
+  font-style: italic;
 }
   .portfolio{
   display: flex;
-  font-family: 'metal-mania', cursive;
  } 
   .portfolio-subtitle {
   display: block;
+  padding: 5em;
   text-align: center;
   }
-  .img-portfolio{
+ .img-portfolio{
     height: 230px;
 width: 230px;
 border-radius: 50%;
@@ -98,14 +93,9 @@ margin: 10px;
 h4 {
   text-align: center;
   margin: 30px;
-  font-size: 35px;
 }
 
 .grid {
-  display: grid;
-  gap: 2em;
-}
-.portfolio .grid {
   display: grid;
   gap: 2em;
 }
@@ -140,12 +130,5 @@ h4 {
  
 }
 figure {
-  text-align: center;
-}
-.img-portfolio {
-  object-fit: cover;
-  object-position: left bottom;
-}
-.portfolio figure {
   text-align: center;
 }
